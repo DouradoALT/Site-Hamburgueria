@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+	font-size: 10px;
+	background-color: #FAB363;
+	
+}
+nav ul#menu{ 
+	text-align: right;
+	line-height: 65px; /*altura da linha*/
+	background-color: rgba(0, 0, 0, 0.6);
+	margin: 0px;
+	padding: 0px;
+	position: fixed;
+	width: 100%;
+	
+}
+nav li{
+	margin: 25px;
+	display:inline; /*tira o bloqueio da lista */
+}
+
+#menu a:link,a:visited{
+	padding: 23px;
+	color: #FFF;
+	font-size: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-shadow: 1px 1px 5px #FAB363;
+}
+#menu a:hover, a:active{
+	background-color: #FDBC02;
+	color: #000;
+	text-shadow: 1px 1px 5px #3A1505;
+
+}
+#banner{
+	background-image: url("../images/5.jpg");
+	width: 100%;
+	height: 700px;
+	background-size: cover;
+	background-position: center;
+
+}
+#about{
+	background-color: #FDBC02;
+	padding: 50px;
+	font-size: 2.5em;
+	height:  750px;
+}
+
+h1{
+	text-align: center;
+	font-size: 2.0em;
+	padding-top:20px ;
+
+}
+#gallery{
+	background-color: #591202;
+	width: 100%;
+	height: 100vh;
+	font-size: 2.0em;
+	padding-top: 50px;
+	text-align: center;
+	color: #FFF;
+	text-shadow: 5px 5px 10px black;
+}
+.galeria{
+	width: 300px;
+	height: 200px;
+	margin: 20px;
+	border-radius: 10px;
+	border:solid 2px #FFF ;
+	box-shadow: 5px 5px 20px #000;
+}
+#contact{
+	background:linear-gradient(darkgreen 40%,rgba(0,0,0, 0.9));
+	width:100%;
+	height: 100vh;
+	padding-top:50px;
+	font-size: 2.0em;
+	text-align: center;
+	color: #FFF;
+}
+#contact label{
+	display:  block;
+	margin: 10px;
+}
+#contact input, textarea{
+	width: 400px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 1.0em;
+	border: none;
+}
+#contact button{
+	border: 0px;
+	font-size: 1.2em;
+	margin-top: 10px;
+	border-radius: 10px;
+	background-color: #FFF;
+	color: darkgreen;
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	width: 100px;
+}
+#contact button:hover{
+	background-color: #000;
+	color: #FFF;
+	border:solid 1px #FFF;
+	color: #FFF;
+}
