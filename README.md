@@ -5,7 +5,7 @@ Detalhes:
 - Não está responsivo
 - É um site estático
 - Utiliza padrões de posicionamento do CSS ultrapassados
-  - Positin
+  - Position
 
 Apenas um projeto qualquer para treinar o git o hub.
 
