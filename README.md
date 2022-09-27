@@ -1,7 +1,7 @@
 # Site de hamburgueria
 Produzido no primeiro período da faculdade, usando apenas linguagens de marcações com HTML e CSS.
 
-Detalhes: 
+##Detalhes: 
 - Não está responsivo
 - É um site estático
 - Utiliza padrões de posicionamento do CSS ultrapassados
@@ -9,6 +9,8 @@ Detalhes:
 
 Apenas um projeto qualquer para treinar o git o hub.
 
-Como visualizar: 
-Instale o arquivo o .zip extraia e arraste o index para uma baba do seu navegador chrome.
-Caso queira visualizar o código dê Ctrl + U se estiver no chrome ou inspecione em qualquer outro navegador para visualizar o código fonte.
+##Como visualizar:
+Instale o arquivo o .zip extraia em seguida arraste o index para uma aba no seu navegador.
+Caso queira visualizar o código dê Ctrl + U se estiver no chrome, se não, inspecione com o botão direito em qualquer outro navegador para visualizar o código fonte.
+
+Visualize outros projetos mais interessantes no meu repositório.
